@@ -1,9 +1,17 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# split-prod-time-tracker
 
-Currently, two official plugins are available:
+I built this site to help me stay focused and also tracker my productive time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# split-prod-time-monitor
+## How to use
+
+I will use myself as an example..., So I work 8 hours a day and then I split each hour into six(6) 10 minute segments.
+
+- In the Rows input I add 8 to create 8 rows
+- In the columns input I add 6 to create 6 columns
+- So for every 10 minute segment I stay on task I click that segment's button once turning it to green with a &#10004; symbol.
+- For a segment where am unable to stay on task I double click to turn that segment's button red with a &#88; symbol.
+
+  <figure>
+    <img src="image.png" width="800" height="400">
+  </figure>
