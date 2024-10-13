@@ -2,7 +2,7 @@
   "name": "simple-tracker",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://MujuniEli.github.io/split-prod-time-monitor",
+  "homepage": "https://MujuniEli.github.io/split-prod-time-tracker",
   "type": "module",
   "scripts": {
     "dev": "vite",
