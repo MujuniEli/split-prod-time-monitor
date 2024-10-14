@@ -13,5 +13,5 @@ I will use myself as an example..., So I work 8 hours a day and then I split eac
 - For a segment where am unable to stay on task I double click to turn that segment's button red with a &#88; symbol.
 
   <figure>
-    <img src="image.png" width="600" height="800">
+    <img src="" width="600" height="800" alt="app screenshot">
   </figure>
