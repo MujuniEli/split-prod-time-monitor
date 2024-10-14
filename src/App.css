@@ -1,5 +1,22 @@
 
 
+/* Adding background gradient to the whole app */
+body {
+  background: repeating-linear-gradient(
+    25deg,
+    #808080, /* First grey shade */
+    #808080 100px, 
+    #737373 100px, /* Second grey shade */
+    #737373 200px, 
+    #676767 200px, /* Third grey shade */
+    #676767 300px
+  );
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
 .input-container {
     display: flex;
     justify-content: center;
