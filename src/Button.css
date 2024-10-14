@@ -1,17 +1,36 @@
 
+/* src/Button.css */
 .square-button {
-    width: 4rem;
-    height: 4rem;
-    display: block;
-    margin: 0 auto;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+  width: 4rem;
+  height: 4rem;
+  background-color: #007BFF;
+  background: linear-gradient(145deg, #66a3ff, #0056b3); /* Light to dark gradient */
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  /* 3D shadow */
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), 
+              -4px -4px 8px rgba(255, 255, 255, 0.1);
+}
+
+/* Button hover effect */
+.square-button:hover {
+  background: linear-gradient(145deg, #0056b3, #66a3ff); /* Reverse gradient on hover */
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2), 
+              inset -4px -4px 8px rgba(255, 255, 255, 0.1);
+}
+
+/* Button active effect (when clicked) */
+.square-button:active {
+  transform: translateY(2px); /* Simulates pressing down */
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3), 
+              inset -2px -2px 5px rgba(255, 255, 255, 0.05);
+}
+
   
   body {
     display: flex;
