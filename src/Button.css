@@ -1,10 +1,11 @@
 
 
+/* src/Button.css */
 .square-button {
   width: 4rem;
   height: 4rem;
-  background-color: #007BFF;
-  background: linear-gradient(145deg, #66a3ff, #0056b3); /* Light to dark gradient */
+  background-color: #007BFF; /* Default button background */
+  background: linear-gradient(145deg, #66a3ff, #0056b3); /* Default 3D effect */
   border: none;
   border-radius: 10px;
   font-size: 1rem;
@@ -30,6 +31,13 @@
   box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3), 
               inset -2px -2px 5px rgba(255, 255, 255, 0.05);
 }
+
+/* Override the 3D background with solid color when clicked or double-clicked */
+.square-button[style*="background-color"] {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), 
+              inset -2px -2px 4px rgba(255, 255, 255, 0.05); /* Adjusted shadow */
+}
+
 
   
   body {

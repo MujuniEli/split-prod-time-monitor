@@ -5,11 +5,11 @@ body {
   background: repeating-linear-gradient(
     25deg,
     #808080, /* First grey shade */
-    #808080 100px, 
-    #737373 100px, /* Second grey shade */
-    #737373 200px, 
-    #676767 200px, /* Third grey shade */
-    #676767 300px
+    #808080 150px, 
+    #737373 150px, /* Second grey shade */
+    #737373 250px, 
+    #676767 250px, /* Third grey shade */
+    #676767 350px
   );
   margin: 0;
   padding: 0;
