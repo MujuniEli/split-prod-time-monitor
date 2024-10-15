@@ -1,11 +1,10 @@
 
-
 /* src/Button.css */
 .square-button {
   width: 4rem;
   height: 4rem;
   background-color: #007BFF; /* Default button background */
-  background: linear-gradient(145deg, #66a3ff, #0056b3); /* Default 3D effect */
+  background: linear-gradient(145deg, #66a3ff, #0056b3); /* Default 3D gradient */
   border: none;
   border-radius: 10px;
   font-size: 1rem;
@@ -18,25 +17,20 @@
               -4px -4px 8px rgba(255, 255, 255, 0.1);
 }
 
-/* Button hover effect */
+/* Hover effect with reverse gradient */
 .square-button:hover {
-  background: linear-gradient(145deg, #0056b3, #66a3ff); /* Reverse gradient on hover */
+  background: linear-gradient(145deg, #0056b3, #66a3ff); 
   box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2), 
               inset -4px -4px 8px rgba(255, 255, 255, 0.1);
 }
 
-/* Button active effect (when clicked) */
+/* Active state (clicked down) */
 .square-button:active {
-  transform: translateY(2px); /* Simulates pressing down */
+  transform: translateY(2px);
   box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3), 
               inset -2px -2px 5px rgba(255, 255, 255, 0.05);
 }
 
-/* Override the 3D background with solid color when clicked or double-clicked */
-.square-button[style*="background-color"] {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), 
-              inset -2px -2px 4px rgba(255, 255, 255, 0.05); /* Adjusted shadow */
-}
 
 
   

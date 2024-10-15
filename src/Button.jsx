@@ -17,26 +17,24 @@ function Button() {
   };
 
   let buttonText = "Click Me";
-  let buttonStyle = {};
+  let buttonStyle = {
+    background: 'linear-gradient(145deg, #66a3ff, #0056b3)', // Default 3D gradient
+  };
 
   if (clicked) {
     buttonText = "✔"; // Hex symbol for checkmark
-    buttonStyle = {
-      backgroundColor: "#2ecc71", // Green background when clicked once
-    };
+    buttonStyle.background = "#2ecc71"; // Green background for single click
   }
 
   if (doubleClicked) {
     buttonText = "✘"; // Hex symbol for cross
-    buttonStyle = {
-      backgroundColor: "#cb4335", // Red background when double-clicked
-    };
+    buttonStyle.background = "#cb4335"; // Red background for double click
   }
 
   return (
     <button
       className="square-button"
-      style={buttonStyle}
+      style={buttonStyle} // Apply dynamic styles here
       onClick={handleClick}
       onDoubleClick={handleDoubleClick}
     >
