@@ -43,6 +43,23 @@ function App() {
 
   return (
     <div className="App">
+        <div className="instructions">
+        <p>
+          Welcome to the Simple Focus App! <br />
+          To create a grid of buttons:
+        </p>
+        <ul>
+          <li>Enter the number of rows (between 2 and 12).</li>
+          <li>Enter the number of columns (between 2 and 12).</li>
+          <li>Click the "Create Grid" button to generate the grid.</li>
+          <li>
+            Click a button once to mark it as done (<span>✔</span>).
+          </li>
+          <li>
+            Double-click a button to mark it as missed (<span>✘</span>).
+          </li>
+        </ul>
+      </div>
       <div className="input-container">
         <input
           type='text'
