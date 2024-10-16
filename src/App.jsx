@@ -42,7 +42,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="app-container">
         <div className="instructions">
         <p>
           Welcome to the Simple Focus App! <br />
