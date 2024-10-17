@@ -15,5 +15,5 @@ I will use myself as an example..., So I work 8 hours a day and then I split eac
 ### [Live Demo](https://fokus-tul.netlify.app/)
 
   <figure>
-    <img src="" width="600" height="800" alt="app screenshot">
+    <img src="/src/assets/simApp.png" width="600" height="800" alt="app screenshot">
   </figure>
